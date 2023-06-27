@@ -1,0 +1,10 @@
+Revisar actividad a desarrollar en esta entrega
+
+
+Direccióm Ip privada =  inet addr:10.0.2.15
+mac =  HWaddr 08:00:27:ff:46:7a
+Direccón route 
+
+Dirección Ip pública =  186.86.52.157
+
+
