@@ -1,0 +1,57 @@
+Hola, me conecté por SH 
+
+
+Ejercicio
+
+**Telnet: 
+a) Pregunta: ¿Cuáles son las ventajas y desventajas de utilizar el protocolo Telnet?
+b) Instrucciones: Responde la pregunta en base a tu conocimiento y experiencia. Menciona al menos dos ventajas y dos desventajas de utilizar Telnet como protocolo de acceso remoto.
+
+R/ Es la primera vez que uso este protocolo y por tanto, mi experiencia es casi nula. De la información encontrada puedo hablar a continuación de unas conclusiones sobre este.
+
+
+Ventajas: 	A)Se usa en sistemas MSDOS y Windows, en sistemas basados en UNIX (Mac y Linux) y 				    FreeBSD. (compatibilidad con varios OS) 
+		 	B)Se pueden establecer conexiones remotas con otros ordenadores, servidores y 			    dispositivos compatibles.
+		 	C)No se utilizan políticas de autenticación ni técnicas de cifrado de datos.
+		 	D)Se puede utilizar para enviar y recibir información.
+		 	E)Admite la autenticación de usuarios.
+		 	
+Desventajas: 	A)Su uso está limitado a redes internas donde existe un escudo de seguridad que 			            aisla la red del exterior.
+			B)La información de terminal a terminal viaja sin ningún cifrado, solo texto plano; lo 			  	    cual, facilita un posible robo de cualquier información, incluyendo el nombre de 				    usuario y la contraseña.
+
+
+
+**SSH:
+a) Pregunta: ¿Cuáles son las ventajas y desventajas de utilizar el protocolo SSH?
+b) Instrucciones: Responde la pregunta en base a tu conocimiento y experiencia. Menciona al menos dos ventajas y dos desventajas de utilizar SSH como protocolo de acceso remoto.
+
+R/ Es la primera vez que uso este protocolo y por tanto, mi experiencia es casi nula. De la información encontrada puedo hablar a continuación de unas conclusiones sobre este.
+
+
+Ventajas: 	A)Su compatibilidad con entornos Windows a pesar de ser un protocolo de 				     comunicación cifrado (secure shell) en sistemas UNIX. 
+		 	B)Su uso deciffrado para asegurar la transferencia segura de información entre el  				     host y el cliente. (Host-> servidor remoto, al cual se accede; Cliente-> equipo 			             utilizado para acceder al host).
+		 	C)Se puede utilizar para enviar y recibir información.
+		 	D)Admite la autenticación de usuarios.
+		 	E)Permite mover archivos de una máquina a otra y cifra el tráfico en ambas 				     direcciones. De esta forma, se previene el rastreo y el robo de contraseñas.
+		 	
+Desventajas: 	A)Se necesita tener conocimientos previos de uso de comandos
+			B)No tiene entorno gráfico. solo líneas de comando (CLI)
+			C)SSH no puede proteger a los usuarios de ataques realizados a través de otros 			             protocolos.
+
+
+**Diferencias entre SSH y Telnet:
+a) Pregunta: ¿Cuáles son las principales diferencias entre SSH y Telnet?
+b) Instrucciones: Responde la pregunta destacando al menos tres diferencias clave entre SSH y
+
+R/Telnet  y SSH en términos de seguridad, cifrado de datos y características funcionales:
+
+	TELNET
+    No se utilizan políticas de autenticación ni técnicas de cifrado de datos.
+    
+	SSH	
+    SSH puede ofrecer múltiples servicios usando la misma conexión.
+    SSH ayuda a tunelizar de forma segura aplicaciones inseguras como SMTP, IMAP, POP3 y CVS.
+    Ofrece una autenticación sólida y comunicaciones seguras a través de canales inseguros.
+    Proporciona privacidad mediante un cifrado sólido.
+    La integridad de las comunicaciones se realiza de tal manera que no se puede alterar.
+    Permite mover archivos de una máquina a otra y cifra el tráfico en ambas direcciones. De esta forma, se previene el rastreo y el robo de contraseñas. 
